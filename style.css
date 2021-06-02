@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  img {
+    width: 80px;
+    height: auto;
+  }
+  img:hover {
+    opacity: 0.5;
+  }
+
+.menuColors {
+    list-style: none;
+    position: absolute;
+    left: -5px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.6s;
+    transition-property: transform;
+    transform: translate(-200px, 0);
+  }
+  
+  button {
+    box-shadow: 1px 1px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    color: black;
+    margin: 2px 0;
+    cursor: pointer;
+  }
+
+  .background-body {
+    background-color: lightgray;
+  }
+  
+  .btnHome {
+    background-color: lightgray;
+  }
+  
+  .btnRed {
+    background-color: red;
+  }
+  
+  .btnOrange {
+    background-color: orange;
+  }
+  
+  .btnPurple {
+    background-color: purple;
+  }
+  
+  .btnGreen {
+    background-color: green;
+  }
+  
+  .showMenuByClicking {
+    transform: translate(20px, 0);
+  }
